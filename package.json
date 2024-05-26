@@ -2,6 +2,7 @@
   "name": "youtube_backend",
   "version": "1.0.0",
   "description": "creating a backend for making a streaming platform like youtube",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +12,8 @@
     "backend"
   ],
   "author": "Rohan Kumar Jha",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.1"
+  }
 }
