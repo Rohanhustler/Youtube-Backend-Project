@@ -1,8 +1,3 @@
-import mongoose from "mongoose";
-import { DB_NAME } from "../constants.js";
-import { app } from "../app.js";
-
-
 const asyncHanlder = (requestHandler) => {
     (req, res, next) => {
         Promise.resolve(requestHandler(req, res, next)).catch((error) => next(err));
